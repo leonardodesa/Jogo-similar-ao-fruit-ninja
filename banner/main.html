@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//cdn.justpremium.com/Justpremium/boilerplate/css/premium_2.0.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body id="body_main">
+    <div id="container">
+        
+        <canvas id="canvas"></canvas>
+        
+        <div id="ricolino-logo-container">
+            <img src="assets/logo-kranky.png" id="ricolino-logo" class="scale-anima">
+        </div>
+        
+        <div id="logo-kranky">
+            <img src="assets/logo-kranky.png">
+        </div>
+        
+        <div id="start-frame" class="frames">
+            <div id="f1-container">
+                <div id="f1-text-container">
+                    <img src="assets/text1.png" id="text1" class="scale-anima">
+                    <img src="assets/text2.png" id="text2" class="pos-a">
+                    <img src="assets/text3.png" id="text3" class="pos-a">
+                </div>
+                <div id="cta-click-para-jugar" class="cta" jp-noClick>
+                    <img src="assets/main-cta-text.png" id="f1-cta-text" jp-noClick>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div id="frame-game-start" class="frames">
+            <div id="f1-hand-container">
+                <img src="assets/hand-icon.png" id="f1-hand-icon">
+                <img src="assets/hand-txt.png" id="f1-hand-txt">
+            </div>
+            <div id="container-time-points-start">
+                <div id="container-time" class="font-style">TIEMPO: <span id="time">20</span></div>
+                <div id="container-points" class="font-style">PUNTOS: <span id="points">0</span></div>
+            </div>
+        </div>
+        
+        <div id="frame-game-over" class="frames">
+            <div id="txt-end-time" class="font-style">
+                se acabó el tiempo
+            </div>
+            
+            <div id="container-points-end" class="font-style">
+                PUNTOS: <span id="points-end">0</span>
+            </div>
+        </div>
+        
+        <div id="end-frame" class="frames">
+            
+            <div id="f2-container" class="pos-a">
+                <div id="nuevo-container">
+                    <img src="assets/text-nuevo.png" id="text-nuevo">
+                </div>
+                <div id="f2-product-container">
+                    <div id="puff-1">
+                        <img src="assets/product2.png" class="scale-anima-end puff">
+                    </div>
+                    <div id="puff-2">
+                        <img src="assets/product2.png" class="scale-anima-end puff">
+                    </div>
+                    <div id="puff-3">
+                        <img src="assets/product2.png" class="scale-anima-end puff">
+                    </div>
+                    <img src="assets/product.png" id="product1" class="scale-anima">
+                </div>
+                <div id="f2-cta-container">
+                    <div id="f2-cta-wrap" class="cta">
+                        <img src="assets/text-cta-bottom.png" id="f2-cta-text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/soundjs.min.js"></script>
+    <script src="js/createElementDom.js"></script>
+    <script src="js/Score.js"></script>
+    <script src="js/Time.js"></script>
+    <script src="js/interaction.js"></script>
+    <script src="js/puffs.js"></script>
+    <script src="js/loop.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mainAnimation.js"></script>
+    <script src="js/drawLine.js"></script>
+    
+    <!-- <script src="//cdn.justpremium.com/Justpremium/boilerplate/js/jp-controls_0.4.0.js"></script> -->
+    <script src="//cdn.justpremium.com/Justpremium/boilerplate/lib/TweenMax_2.0.1.js"></script>
+    <!-- <script src="//cdn.justpremium.com/Justpremium/boilerplate/lib/TimelineMax_2.0.1.js"></script> -->
+    <script src="//cdn.justpremium.com/Justpremium/boilerplate/js/premium_2.3.7.js"></script>
+</body>
+
+</html>
